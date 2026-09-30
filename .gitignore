@@ -1,0 +1,9 @@
+# Only the reviewed code and its brief documentation belong in this repository.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!CODE_MANIFEST.json
+!script/
+!script/*.R
+!script/*.py

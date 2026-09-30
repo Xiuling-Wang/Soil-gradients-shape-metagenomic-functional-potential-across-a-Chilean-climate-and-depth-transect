@@ -1,0 +1,70 @@
+{
+  "scope": "Anonymized scientific analysis code only; no data",
+  "files": [
+    {
+      "path": "script/38_curated_module_validation.R",
+      "sha256": "a0b88b192678b9ee98ee1b9b5287e60976746920e7a6694a21de8f39846f51b4",
+      "bytes": 25524
+    },
+    {
+      "path": "script/123_build_amoA_targeted_validation.py",
+      "sha256": "273344a8caf493500b5c62c37edb155cd96ccec46d7b6aa48dec0efddf422f07",
+      "bytes": 21115
+    },
+    {
+      "path": "script/148_rerun_figure2_comments_environmental_axes.R",
+      "sha256": "f9e76f7b29d138f127deeb89d3093e696f325c6ca826595abf393def987126aa",
+      "bytes": 41300
+    },
+    {
+      "path": "script/150_rebuild_figure3_cross_resolution.R",
+      "sha256": "20d3b9a46a1aca30a8ab46f8fd76cf49a0bf9ba8a719280f5f70a14d31d29250",
+      "bytes": 21967
+    },
+    {
+      "path": "script/158_audit_v06_ecological_spine.R",
+      "sha256": "4f4ca1f1563e502e8bd55664e531f8d7c2862e90441802c535f21786a2ddeefa",
+      "bytes": 12520
+    },
+    {
+      "path": "script/166_explore_bacterial_MAG_candidates.R",
+      "sha256": "7b8618c865414dc825b375359b0df6715fd03d61a9941ffea864550752db435b",
+      "bytes": 21916
+    },
+    {
+      "path": "script/261_v40_phase1_exact_permutation_sensitivity.R",
+      "sha256": "70a1248591c1d8d75d8246b4641506fc5d8ffec56ac5b52c8fb13dcb4b29ef71",
+      "bytes": 37858
+    },
+    {
+      "path": "script/281_v43_targeted_robustness_analysis.R",
+      "sha256": "f6f8a55c987c2b6ab7a07317dda2151f8b4e235faa8be31d36bf2c0157902d8d",
+      "bytes": 18307
+    },
+    {
+      "path": "script/332_exploratory_KO_differential_abundance.R",
+      "sha256": "b3ff42a7fac400471e39ad6ab8e45f9652a59385b02e58cee06f3a43b86186b8",
+      "bytes": 29038
+    },
+    {
+      "path": "script/333_prepare_exploratory_KO_DA_inputs.R",
+      "sha256": "a15ff8af9fcddb6e3869d18cba8086f0dc9e4aa428065be14c946a8ed62addbe",
+      "bytes": 9157
+    },
+    {
+      "path": "script/420_v19_surface_rclr_az_sensitivity.R",
+      "sha256": "450a4188f14598b5cfaab740a1be8b73c6dfecc49a52f5a932047f4fa7bec68c",
+      "bytes": 6959
+    },
+    {
+      "path": "script/_functional_marker_registry.R",
+      "sha256": "eebf3b2590ccc2038691398f092b388384134c7f37a7297bd6bb254dcb09c754",
+      "bytes": 22929
+    },
+    {
+      "path": "script/_theme_sbb.R",
+      "sha256": "86aa6d6127414f757092bc6536c67fd9c6cd6763fe2997ea407cb9139c65bde7",
+      "bytes": 8533
+    }
+  ]
+}
