@@ -4,6 +4,9 @@
 !.gitattributes
 !README.md
 !CODE_MANIFEST.json
+!figs.md
+!checks.md
+!requirements.txt
 !script/
 !script/*.R
 !script/*.py

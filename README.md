@@ -1,10 +1,32 @@
-# Soil Metagenomics Analysis Code
+# Chilean Soil Metagenomics Across Environmental Gradients
 
-Code-only snapshot for the V35 manuscript. No measurements, sample metadata, sampling coordinates, annotations, abundance matrices, sequence files, manuscripts or internal reviews are included.
+Analysis and figure code for a Chilean soil climate transect and paired depth profiles. The October 2026 update includes the approved figures used in manuscript V49. No measurements, sample metadata, sampling coordinates, annotations, abundance matrices, sequence files, manuscripts or internal reviews are included.
+
+## Figures
+
+[Figure guide](figs.md) | [Runner](script/figures.py)
+
+```sh
+python script/figures.py --inputs /path/to/local-inputs --work /path/to/new-workspace
+```
+
+Builds all seven main figures and three supplementary figures, including the approved larger-bubble Figure 5, graphical Figure 7 and complete two-page S2 with its original large legends. Frozen results are used without model refitting. Unchanged panels come from source PDFs. These PDFs and underlying data must be supplied separately. Existing inputs are not overwritten.
+
+## Tables
+
+[Formatting code](script/tables.py)
+
+```sh
+python script/tables.py --inputs /path/to/original-workbooks --out /path/to/new-tables
+```
+
+Applies S1A widths and displayed precision, S4 units in headers, and the supplementary-data table style. Measurements, formulas and other sheets are retained. Input names: `Tables_S1-S4.xlsx` and `Supplementary_Data_S1.xlsx`.
+
+## Analysis
 
 Machine-specific paths have been replaced with portable roots. Run R scripts from the project root, or set `CHILE_PROJECT_ROOT`; the phylogenetic Python script also accepts `CHILE_PHYLO_BIN`. Mathematical operations, sample selection and statistical models were not changed. The original script numbers preserve analytical provenance rather than manuscript numbering.
 
-## Entry Points
+### Entry Points
 
 | Component | Script |
 |---|---|
@@ -32,6 +54,8 @@ Input files are intentionally not distributed in this code-only repository. Thei
 
 Required R packages include `data.table`, `tidyverse`, `vegan`, `permute`, `edgeR`, `rdacca.hp`, `patchwork`, `cowplot`, `ggrepel`, `ggtext`, `ComplexHeatmap`, `circlize`, `ggplotify` and `scales`. The Python workflow uses the standard library plus external MAFFT, trimAl and IQ-TREE executables. Live UniProt queries can return updated records.
 
+The current figure/table Python dependencies are in [requirements.txt](requirements.txt). Figure rendering also uses R packages `ape`, `ggtree`, `ggnewscale`, `gridtext` and `jsonlite`. It is tested on macOS with Arial. Set `CHILE_FONT_DIR` when `Arial.ttf`, `Arial Bold.ttf` and `Arial Italic.ttf` are outside the system font directory. The inherited Figure 6 renderer uses Quartz; cross-platform rendering is not certified. The figure runner configures its own isolated project root.
+
 The distributed code was syntax-checked and scanned for identifying strings, home-directory paths, email addresses and credential patterns. Statistical models were not rerun. This is not a complete end-to-end reproducibility certification, and no new reuse license is assigned by this snapshot.
 
-`CODE_MANIFEST.json` records the hashes of the distributed scripts. Generated outputs and datasets are excluded from Git. Commit attribution uses an anonymous placeholder; the hosting account remains visible as the repository owner.
+`CODE_MANIFEST.json` records distributed code hashes and selected-output hashes. [checks.md](checks.md) describes the release checks. Generated outputs and datasets are excluded from Git. Commit attribution uses an anonymous placeholder; the hosting account remains visible as the repository owner.

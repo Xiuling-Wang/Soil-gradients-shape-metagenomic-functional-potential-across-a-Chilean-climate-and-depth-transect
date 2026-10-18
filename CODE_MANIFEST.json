@@ -1,11 +1,8 @@
 {
-  "scope": "Anonymized scientific analysis code only; no data",
+  "scope": "Scientific code only; approved October 2026 figure/table selection",
+  "base_commit": "99621dd7f18b0d0f4ad372cae598a546ae90ee1c",
+  "snapshot": "v49",
   "files": [
-    {
-      "path": "script/38_curated_module_validation.R",
-      "sha256": "a0b88b192678b9ee98ee1b9b5287e60976746920e7a6694a21de8f39846f51b4",
-      "bytes": 25524
-    },
     {
       "path": "script/123_build_amoA_targeted_validation.py",
       "sha256": "273344a8caf493500b5c62c37edb155cd96ccec46d7b6aa48dec0efddf422f07",
@@ -32,6 +29,11 @@
       "bytes": 21916
     },
     {
+      "path": "script/212_build_v18_s3_clean.R",
+      "sha256": "acc81c4a30bedc330975176113d39c655b89baecc5248b29ab5fd88c259d0cc0",
+      "bytes": 26328
+    },
+    {
       "path": "script/261_v40_phase1_exact_permutation_sensitivity.R",
       "sha256": "70a1248591c1d8d75d8246b4641506fc5d8ffec56ac5b52c8fb13dcb4b29ef71",
       "bytes": 37858
@@ -52,9 +54,69 @@
       "bytes": 9157
     },
     {
+      "path": "script/38_curated_module_validation.R",
+      "sha256": "a0b88b192678b9ee98ee1b9b5287e60976746920e7a6694a21de8f39846f51b4",
+      "bytes": 25524
+    },
+    {
       "path": "script/420_v19_surface_rclr_az_sensitivity.R",
       "sha256": "450a4188f14598b5cfaab740a1be8b73c6dfecc49a52f5a932047f4fa7bec68c",
       "bytes": 6959
+    },
+    {
+      "path": "script/446_render_v26_figure2_s1.R",
+      "sha256": "6ae69f2d93e910ce937d80c1406ed16a8d4b95b69091c4246dc8211c4c1c47db",
+      "bytes": 28813
+    },
+    {
+      "path": "script/465_render_geoderma_v03_figure3_split.R",
+      "sha256": "5ec194f15e92e27a68442bee0839d1cf52c46278c5a75866b9d8d14db70a2c06",
+      "bytes": 14803
+    },
+    {
+      "path": "script/467_render_geoderma_v03_figure5.R",
+      "sha256": "0012a8d94114775870ea5dc5a31e3aec6d839107bd624a14be9c4b3d1b879de5",
+      "bytes": 14335
+    },
+    {
+      "path": "script/470_render_geoderma_v03_figure6.R",
+      "sha256": "7b5331c40ad9a2843c936b6c5eed78f8be7146721e42b8abacf6f07121329d7b",
+      "bytes": 19692
+    },
+    {
+      "path": "script/471_render_geoderma_v03_figure_s2.R",
+      "sha256": "290f5df8f3bd4937f018989b427edb17c998e87b946accf6636fd68c6f46808b",
+      "bytes": 22091
+    },
+    {
+      "path": "script/553_v19_figure5_6.R",
+      "sha256": "212fc07c1a328573266e51e8ced20c2d6f9f2f5f3c0d13a7241cbfb696d98daa",
+      "bytes": 4948
+    },
+    {
+      "path": "script/695_v35_repair_figure6.R",
+      "sha256": "33ed411c005e7ae5f226238a13f9189e18294c3852b3c4426bd271d7404678c2",
+      "bytes": 4083
+    },
+    {
+      "path": "script/760_refine_native_figures.R",
+      "sha256": "646874586ca35f02bf4ad677972f92f3039e02cc095d0f295bce4ab785370e85",
+      "bytes": 17470
+    },
+    {
+      "path": "script/762_compose_figure_review.py",
+      "sha256": "ba7f0b7c58c47f7f84c3dadb6cab7a5875aa709c5e395265a3720279a9c7219b",
+      "bytes": 7292
+    },
+    {
+      "path": "script/766_author_figure_feedback_native.R",
+      "sha256": "9e25265bf43fc65cd4b553d206966ee53134ddc8037285671d7ca837a83bddd3",
+      "bytes": 9528
+    },
+    {
+      "path": "script/767_figure7_gene_combination_diagram.py",
+      "sha256": "5749837da4f2a40188e630a5f19a4c3afc20200c43b027964b83e32402cbc318",
+      "bytes": 7997
     },
     {
       "path": "script/_functional_marker_registry.R",
@@ -65,6 +127,32 @@
       "path": "script/_theme_sbb.R",
       "sha256": "86aa6d6127414f757092bc6536c67fd9c6cd6763fe2997ea407cb9139c65bde7",
       "bytes": 8533
+    },
+    {
+      "path": "script/figures.py",
+      "sha256": "24107ce35a1e7141425ed637d9a1791ac7bab31584979719964c724f2431fc6f",
+      "bytes": 6393
+    },
+    {
+      "path": "script/tables.py",
+      "sha256": "6d3706547b4f71bfcda9d3f73b8b074100bc3ef53d6f1908bbab22795ed5012e",
+      "bytes": 4423
     }
-  ]
+  ],
+  "approved_output_hashes": {
+    "Figure_1.pdf": "0b248405e6cae83deb0e49e9770dd2f485f61ff06d5fd5891449ff7e961c9d47",
+    "Figure_2.pdf": "532bbaf8b46191839288ca65e7b4ee58d9e13113be99b1baf91f857f06c37452",
+    "Figure_3.pdf": "cc7cda746a16d692bfd84038ebbf0adefca4d926cbefc0d65b5f0f12d52a69fe",
+    "Figure_4.pdf": "815a9aa298e2ea5b61ee8af41af3b213193c05d0b06490775511fae283a829fd",
+    "Figure_5.pdf": "a083843da16e0cc5aed3329a167c01bd9fd24767cfa1b94e393f4ac8da23884f",
+    "Figure_6.pdf": "c95fd30a867fcf1b272ed8ad5d0bf4b0f3762c547799fa598c429a2e44247af5",
+    "Figure_7.pdf": "8bc65f8f49af07ee5743ef23bd4a1d06eb7058d6666e7369355a68152d5554de",
+    "Figure_S1.pdf": "e46b7d4f6250078775492d9b6cce1bfca1f7a71d2ef972c40919474795d93cfb",
+    "Figure_S2.pdf": "3e547bfd37e5463d36c053bca38ae3443a216c46dd81c65bbb3f3db961401196",
+    "Figure_S3.pdf": "7589cf4db428221236224fde0681173b62ca8ab68a1c473660bcc1e6db91d8b4",
+    "Supplementary_Data_S1.xlsx": "2e056824b1308734f4e5aba1cae5c67ed2529c3be0bb99ffd6e45b80b65640c0",
+    "Tables_S1-S4.xlsx": "374024e85db5945190c85a7f9d964ed993bb019250d04c67c3fc9c6ec0d15f58"
+  },
+  "data_included": false,
+  "models_refitted": false
 }
