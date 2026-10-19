@@ -1,6 +1,6 @@
 # Chilean Soil Metagenomics Across Environmental Gradients
 
-Analysis and figure code for a Chilean soil climate transect and paired depth profiles. The October 2026 update includes the approved figures used in manuscript V49. No measurements, sample metadata, sampling coordinates, annotations, abundance matrices, sequence files, manuscripts or internal reviews are included.
+Analysis and figure code for a Chilean soil climate transect and paired depth profiles. No measurements, sample metadata, sampling coordinates, annotations, abundance matrices, sequence files, manuscripts or internal reviews are included.
 
 ## Figures
 
