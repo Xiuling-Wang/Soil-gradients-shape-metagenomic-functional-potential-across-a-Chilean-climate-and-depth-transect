@@ -1,6 +1,12 @@
-# Chilean Soil Metagenomics Across Environmental Gradients
+# Chilean soil metagenomics: resource-use potential
 
 Analysis and figure code for a Chilean soil climate transect and paired depth profiles. No measurements, sample metadata, sampling coordinates, annotations, abundance matrices, sequence files, manuscripts or internal reviews are included.
+
+Current submitted title: **Regional differentiation and genomic context of microbial resource-use potential along the Chilean Coastal Cordillera.** Submitted to Environmental Microbiome on 19 October 2026; no acceptance is asserted.
+
+Raw metagenomic reads (17 runs): [ENA PRJEB123235](https://www.ebi.ac.uk/ena/browser/view/PRJEB123235). Current result workbooks and thesis supplementary figures: [Zenodo 1.0.5](https://doi.org/10.5281/zenodo.23225015). Zenodo maps thesis Appendix C labels to the journal S labels retained inside the submitted workbooks.
+
+The 23 October synchronization updates the study identity, public links, input boundaries and submitted-file provenance. The 27-file scientific-code snapshot is unchanged. The figure runner reproduces the earlier approved selection, not the final 19 October typography and Figure 6 finishing steps; final submitted-output hashes are recorded separately and are not a claim of full end-to-end reproduction.
 
 ## Figures
 
@@ -10,7 +16,7 @@ Analysis and figure code for a Chilean soil climate transect and paired depth pr
 python script/figures.py --inputs /path/to/local-inputs --work /path/to/new-workspace
 ```
 
-Builds all seven main figures and three supplementary figures, including the approved larger-bubble Figure 5, graphical Figure 7 and complete two-page S2 with its original large legends. Frozen results are used without model refitting. Unchanged panels come from source PDFs. These PDFs and underlying data must be supplied separately. Existing inputs are not overwritten.
+Builds the earlier approved seven-main/three-supplementary figure selection, including the larger-bubble Figure 5, graphical Figure 7 and complete two-page S2. Frozen results are used without model refitting. Unchanged panels come from source PDFs. These PDFs and underlying data must be supplied separately. Existing inputs are not overwritten. See the synchronization note above for the final submitted typography boundary.
 
 ## Tables
 
@@ -43,7 +49,7 @@ Machine-specific paths have been replaced with portable roots. Run R scripts fro
 
 ## Current Versus Historical Analyses
 
-- Surface comparisons use independent sites. Depth comparisons are paired within soil pits.
+- Surface comparisons use soil profiles as biological replicates within four observational sites; climate classes are not independently replicated. Depth comparisons are paired within NA soil pits.
 - Script 261 supplies the current exact-design tests. Unrestricted depth tests in earlier scripts are historical, not current inference.
 - In script 332, the pit-adjusted model `~ pit + depth_display` is the reported depth comparison. Its older unblocked-depth labels and generated summaries are retained for source traceability, not promoted as current primary results.
 - Gene, KO and MAG representations are complementary views of the same metagenomes. Sequence abundance measures encoded potential, not transcription or process rates.
@@ -58,4 +64,4 @@ The current figure/table Python dependencies are in [requirements.txt](requireme
 
 The distributed code was syntax-checked and scanned for identifying strings, home-directory paths, email addresses and credential patterns. Statistical models were not rerun. This is not a complete end-to-end reproducibility certification, and no new reuse license is assigned by this snapshot.
 
-`CODE_MANIFEST.json` records distributed code hashes and selected-output hashes. [checks.md](checks.md) describes the release checks. Generated outputs and datasets are excluded from Git. Commit attribution uses an anonymous placeholder; the hosting account remains visible as the repository owner.
+`CODE_MANIFEST.json` records distributed code hashes, historical rendered-output hashes and separately identified final submitted-file hashes. [checks.md](checks.md) distinguishes the original renderer tests from this metadata/provenance synchronization. Generated outputs and datasets are excluded from Git. Commit attribution uses an anonymous placeholder; the hosting account remains visible as the repository owner.

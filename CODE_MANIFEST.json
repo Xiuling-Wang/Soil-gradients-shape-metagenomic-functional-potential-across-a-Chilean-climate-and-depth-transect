@@ -1,7 +1,7 @@
 {
-  "scope": "Scientific code only; approved October 2026 figure/table selection",
+  "scope": "Code-only snapshot retained; current title, public links and submitted-file provenance synchronized",
   "base_commit": "99621dd7f18b0d0f4ad372cae598a546ae90ee1c",
-  "snapshot": "v49",
+  "snapshot": "thesis-sync-2026-10-23",
   "files": [
     {
       "path": "script/123_build_amoA_targeted_validation.py",
@@ -139,7 +139,9 @@
       "bytes": 4423
     }
   ],
-  "approved_output_hashes": {
+  "data_included": false,
+  "models_refitted": false,
+  "prior_rendered_output_hashes": {
     "Figure_1.pdf": "0b248405e6cae83deb0e49e9770dd2f485f61ff06d5fd5891449ff7e961c9d47",
     "Figure_2.pdf": "532bbaf8b46191839288ca65e7b4ee58d9e13113be99b1baf91f857f06c37452",
     "Figure_3.pdf": "cc7cda746a16d692bfd84038ebbf0adefca4d926cbefc0d65b5f0f12d52a69fe",
@@ -153,6 +155,18 @@
     "Supplementary_Data_S1.xlsx": "2e056824b1308734f4e5aba1cae5c67ed2529c3be0bb99ffd6e45b80b65640c0",
     "Tables_S1-S4.xlsx": "374024e85db5945190c85a7f9d964ed993bb019250d04c67c3fc9c6ec0d15f58"
   },
-  "data_included": false,
-  "models_refitted": false
+  "prior_code_snapshot": "v49",
+  "submission_date": "2026-10-19",
+  "submitted_title": "Regional differentiation and genomic context of microbial resource-use potential along the Chilean Coastal Cordillera",
+  "submitted_workbook_hashes": {
+    "Supplementary_Data_S1.xlsx": "96978db300ba7adc586d5a680671cafb5587c580da8b9a2214f7de1b53778550",
+    "Tables_S1-S4.xlsx": "374024e85db5945190c85a7f9d964ed993bb019250d04c67c3fc9c6ec0d15f58"
+  },
+  "finalized_submitted_figure_hashes": {
+    "Figure_5.pdf": "d309bfa058dec84831cb4d696f87fa7b3294af13c4043135751c684e26d7e8da",
+    "Figure_6.pdf": "7ac6358797ec152e341dd349fa78a01e56393409c70929d113de1d075a776e47",
+    "Figure_7.pdf": "cd5ac2f6006e13f5d1e22cac4dfe82d84dc7ec9ae0fdcf1b05540e2f7ed8a328",
+    "Figure_S2.pdf": "d9cf95ef3a6ae78e758189795eca538dfa9dfd0d3c08b979eaf2131fc4c30646"
+  },
+  "figure_provenance_note": "Finalized submitted PDFs are fingerprints only; the earlier public runner is not certified to reproduce subsequent journal typography and Figure 6 finishing."
 }
