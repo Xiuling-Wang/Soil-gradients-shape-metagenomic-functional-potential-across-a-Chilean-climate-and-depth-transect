@@ -1,0 +1,167 @@
+[
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/gene_counts.tsv",
+    "sha256": "cafffc4ebd9c2bfdf5c420cef3e46f6310b3f7298788baa1ab22943b91babdcc",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/gene_lengths.tsv",
+    "sha256": "bd2d34e05a6a0e24dd8597909f30d1d403aa9133a53365400b77853b6a33a4fd",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/mag_counts.tsv",
+    "sha256": "b2410532dea646110bf6e026e1b8f43fdb2f3a8436cdb3cde07510f69078d843",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/mag_quality.tsv",
+    "sha256": "28344fc817e39087298530d1d6912ee60e65e8f320578bc18f6d0a23c1e13934",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/mag_taxonomy.tsv",
+    "sha256": "b573b42b5ae8ee4450afb72a9512d363a808c479c316f53f2b6077da67c7e031",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/metadata.tsv",
+    "sha256": "55fba10cb67fbaa535b1e7f214d2e6617fd0f8035ea2530e7723bb2ae670453a",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/KO_fractional_raw_counts.rds",
+    "sha256": "ce891ca1a87c054b3ef03551e6b7607506963ad01ca57319885f761af3b29228",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/KO_fractional_map.rds",
+    "sha256": "e2407aa8aa995b9ecd4720824843944fb4bf601fb51b57989bc8efe505b476ac",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/KO_annotation.rds",
+    "sha256": "e7e0970b3635951b00d578591f8f3d581678f2472c0efe72b46065a2c8ce72f8",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/KO_DA_all_tests.tsv",
+    "sha256": "74ffefbfe00ef2c8e34acf9e5421b93149fa486b7af2cf16994dfc8ee56c53b1",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/KO_DA_test_summary.tsv",
+    "sha256": "bd02776cdc4be26d05f20d64c3205fa05127af9c1534392ea2801dfcbec55058",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/KO_DA_full_catalog_TMM_offsets.tsv",
+    "sha256": "636c12521b498acf19c37b9e1e0d429a16a159fd0543d91d7dd7415198cd638a",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/curated_feature_sample_TPM.tsv",
+    "sha256": "a4949fa1894aab1d98f5b129e6c69db9d9ac1a0b304f4483ae7bff632b58dbfc",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/curated_category_sample_TPM.tsv",
+    "sha256": "6e3cf1948ca3b5505821322a2e10436eee6c6a133a1522364d3c5927c9475394",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/curated_module_total_sample_TPM.tsv",
+    "sha256": "b160b6d279821791a5598f8c18b9d22f61e9355c5f9a88b253c934bc9926db1e",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/curated_module_PERMANOVA_dispersion.tsv",
+    "sha256": "89ec6f0656e5219071f641ca2039314ec44cbf3a3924090f499fe4d860e915b3",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/curated_marker_registry.tsv",
+    "sha256": "1adce540035fdc9ee646a2afc4f84e506d475bfbbca6d0412737c43ef2a17283",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/exact_direct_location_permanova.tsv",
+    "sha256": "fb2f0505f6261f7f8018bbde10db624dc2be0c6d799b832e07a404f19895aad8",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/exact_direct_location_dispersion.tsv",
+    "sha256": "8be37a9ebac10eb004171c4e332416a53caf172c3d7bcc35faabd3c3e882b122",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/exact_curated_module_PERMANOVA_dispersion.tsv",
+    "sha256": "446219be6707eaa181d5d0be4ae8272e1b1ed23ac6c03f22568abe9f2ef3fa59",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/whole_gene_KO_dbrda_sensitivity.tsv",
+    "sha256": "9af1ca176f7b55a905cf8ca7b7f93a60e8914cbf80a676a2dc746d78a0ceaed2",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/Category_pit_endpoints.tsv",
+    "sha256": "2819557dacaed7719f0bf7186867928bd4958506405fcf548a09248ad25811ef",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/Module_pit_endpoints.tsv",
+    "sha256": "0d6b81be41d5ba85115c6f5362f833d06b74c1b80de731fa5efed5c9253801fe",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/Marker_sample_metrics.tsv",
+    "sha256": "fb9bd06944cfc1cda5363aaacb8641b0a3cf060c59a9afaff9b7c6db185b2594",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/Marker_site_means.tsv",
+    "sha256": "c2d71fb97a3d4a3cdd8b01b0af27a76b8d9d0dc8ef11886178458fca5f853884",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/Archaeal_MAG_sample_abundance.tsv",
+    "sha256": "2a40f6b472c1ef0276705093178d4fd3e640507aa6135c0e14dbf6e345780080",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/source_code/261_v40_phase1_exact_permutation_sensitivity.R",
+    "sha256": "bb3acca952a32467ce8da06c21aeee26d99f5514a5424b03e4d8c3aa1f4cba85",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/source_code/332_exploratory_KO_differential_abundance.R",
+    "sha256": "b3ff42a7fac400471e39ad6ab8e45f9652a59385b02e58cee06f3a43b86186b8",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/source_code/333_prepare_exploratory_KO_DA_inputs.R",
+    "sha256": "a15ff8af9fcddb6e3869d18cba8086f0dc9e4aa428065be14c946a8ed62addbe",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/source_code/281_v43_targeted_robustness_analysis.R",
+    "sha256": "06be584e5d5388bc0d77bfcfb1a70cdcd4e2506c39dad3f2970c29f8cd0d72ff",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/source_code/38_curated_module_validation.R",
+    "sha256": "8af785c91a1c32fdf3977accb4416c71b5102b9bb9b03dda63cd44af8c05562e",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/source_code/_functional_marker_registry.R",
+    "sha256": "eebf3b2590ccc2038691398f092b388384134c7f37a7297bd6bb254dcb09c754",
+    "distributed": false
+  },
+  {
+    "relative_path": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/reference/significant_curated_KOs.tsv",
+    "sha256": "2d1a8728422d878dab8a164028717da4d5373e75f6bb38613e40623380ea6c63",
+    "distributed": false
+  }
+]

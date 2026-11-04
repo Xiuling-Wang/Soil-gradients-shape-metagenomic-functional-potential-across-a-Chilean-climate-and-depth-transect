@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-05",
+  "scope": "Current 15-library downstream analysis and documented diagnostic; no statistical rerun in this release.",
+  "files": [
+    {
+      "path": "script/c03_c18_exclude_both_matrices_20261028.R",
+      "source": "script/c03_c18_exclude_both_matrices_20261028.R",
+      "source_sha256": "43f7f55a691118fe93359eb5b803f5cb939eca615295a16eaf41847245bad7c0",
+      "distributed_sha256": "46434fb20b141347538b1b031aad79983853c0e21e7293986c1e5ef35e0e3e59",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    },
+    {
+      "path": "script/c03_c18_exclude_both_curated_20261028.R",
+      "source": "script/c03_c18_exclude_both_curated_20261028.R",
+      "source_sha256": "e80a1bc663a36e4878eb33a2c14a5eac578b751d1c6c31df2114ea98bbe0c5ff",
+      "distributed_sha256": "ad2d174b0fb4ce21a0539715caedbf09413a50b3b95111aac361f84edb9f9f90",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    },
+    {
+      "path": "script/c03_c18_exclude_both_statistics_20261028.R",
+      "source": "script/c03_c18_exclude_both_statistics_20261028.R",
+      "source_sha256": "6c8c7b640098afa587efe07244611a39a5a55500ac868670b884d64de6b1a688",
+      "distributed_sha256": "7265bbfe2621a9e892352515c9ed8d5620f7f37dfae8dde1a7156b11fd16a051",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    },
+    {
+      "path": "script/c03_c18_exclude_both_edgeR_20261028.R",
+      "source": "script/c03_c18_exclude_both_edgeR_20261028.R",
+      "source_sha256": "cec4cd2cb7d32767f3b61281e98592c23ed61c9ce4cf8f87cca1423c7e513b27",
+      "distributed_sha256": "140b2ccb37d11b88971e1a93e09fc00b28b529447a47c945c60f9a8ec4bf412a",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    },
+    {
+      "path": "script/c03_c18_exclude_both_outputs_20261028.R",
+      "source": "script/c03_c18_exclude_both_outputs_20261028.R",
+      "source_sha256": "58cda7afbc26e2c96818cd2ddeb8cdc7d6870e4e1a1b19d1c19c096940b76e7a",
+      "distributed_sha256": "58cda7afbc26e2c96818cd2ddeb8cdc7d6870e4e1a1b19d1c19c096940b76e7a",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    },
+    {
+      "path": "script/815_v55_leave_C01_out_DIAGNOSTIC.R",
+      "source": "script/815_v55_leave_C01_out_DIAGNOSTIC.R",
+      "source_sha256": "7946e1efac3b74cff62471faeb2da9f5dc4908f7d25452032fb104d8efc5e06d",
+      "distributed_sha256": "af4a2c153b39622aa5081d206850bd1a112cb1e8dec1c6bd650b6ab3e2898b75",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    },
+    {
+      "path": "script/_functional_marker_registry.R",
+      "source": "script/_functional_marker_registry.R",
+      "source_sha256": "eebf3b2590ccc2038691398f092b388384134c7f37a7297bd6bb254dcb09c754",
+      "distributed_sha256": "eebf3b2590ccc2038691398f092b388384134c7f37a7297bd6bb254dcb09c754",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    },
+    {
+      "path": "release_2026-11-05/source_code/38_curated_module_validation.R",
+      "source": "analysis/C03_C18_correction_2026-10-28/exclude_both/inputs/source_code/38_curated_module_validation.R",
+      "source_sha256": "8af785c91a1c32fdf3977accb4416c71b5102b9bb9b03dda63cd44af8c05562e",
+      "distributed_sha256": "e5e57c00c3b8d490502ed82740ef8faab5b74d5326e4f27ec8b2346b739c3594",
+      "adaptation": "Project-root portability and frozen-source location only; line count unchanged.",
+      "syntax_check": "parse OK"
+    }
+  ]
+}
